@@ -1,3 +1,19 @@
+function somar() {
+  let numero1 = Number(document.getElementById("numero1").value);
+  let numero2 = Number(document.getElementById("numero2").value);
+
+  document.getElementById("resultado").innerText =
+    "Resultado: " + (numero1 + numero2);
+}
+
+function subtrair() {
+  let numero1 = Number(document.getElementById("numero1").value);
+  let numero2 = Number(document.getElementById("numero2").value);
+
+  document.getElementById("resultado").innerText =
+    "Resultado: " + (numero1 - numero2);
+}
+
 function multiplicar() {
   let numero1 = Number(document.getElementById("numero1").value);
   let numero2 = Number(document.getElementById("numero2").value);
